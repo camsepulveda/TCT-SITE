@@ -56,6 +56,32 @@ export const t = {
     es: "Programa Acreditado por FACT",
   },
 
+  // ===== STATS BAND =====
+  stats_label: {
+    en: "TCT Oncology at a Glance",
+    es: "TCT Oncology de un Vistazo",
+  },
+  stat_1_value: { en: "FACT", es: "FACT" },
+  stat_1_label: {
+    en: "Puerto Rico’s only accredited hematopoietic cell therapy center",
+    es: "El único centro de terapia celular hematopoyética acreditado en Puerto Rico",
+  },
+  stat_2_value: { en: "5", es: "5" },
+  stat_2_label: {
+    en: "Board-certified transplant & cellular therapy physicians",
+    es: "Médicos certificados en trasplante y terapia celular",
+  },
+  stat_3_value: { en: "24–48 hrs", es: "24–48 hrs" },
+  stat_3_label: {
+    en: "Referral case review turnaround",
+    es: "Tiempo de revisión de casos referidos",
+  },
+  stat_4_value: { en: "ES · EN", es: "ES · EN" },
+  stat_4_label: {
+    en: "Fully bilingual clinical team",
+    es: "Equipo clínico completamente bilingüe",
+  },
+
   // ===== WHY TCT =====
   why_label: { en: "Why TCT Oncology", es: "Por Qué TCT Oncology" },
   why_title_pre: { en: "Why Patients", es: "Por Qué Pacientes" },
