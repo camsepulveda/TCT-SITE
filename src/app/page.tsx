@@ -107,6 +107,21 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ===== AT A GLANCE (STATS) ===== */}
+      <section className="bg-navy-mid border-b border-white/5">
+        <div className="mx-auto max-w-7xl px-6 py-14">
+          <p className="text-teal font-medium text-xs tracking-[0.2em] uppercase text-center mb-10">{l("stats_label")}</p>
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-10">
+            {([["stat_1_value","stat_1_label"],["stat_2_value","stat_2_label"],["stat_3_value","stat_3_label"],["stat_4_value","stat_4_label"]] as const).map(([vk,lk]) => (
+              <div key={vk} className="text-center">
+                <p className="font-serif text-4xl md:text-5xl font-bold text-lime">{l(vk)}</p>
+                <p className="mt-3 text-sm text-zinc-400 leading-snug max-w-[16rem] mx-auto">{l(lk)}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ===== WHY TCT ===== */}
       <section id="why-tct" className="bg-navy py-20 md:py-28">
         <div className="mx-auto max-w-7xl px-6">
