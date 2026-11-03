@@ -223,8 +223,8 @@ export default function Home() {
             <div className="w-12 h-1 bg-teal mt-6 mb-6" />
             <p className="text-lg text-zinc-400 leading-relaxed">{l("team_intro")}</p>
           </div>
-          <div className="mt-12 max-w-3xl mx-auto rounded-2xl overflow-hidden border-2 border-teal/20">
-            <Image src="/images/team/group.jpeg" alt="TCT Oncology physician team at the transplant program in San Juan, Puerto Rico" width={800} height={533} sizes="(min-width: 768px) 768px, 100vw" className="w-full h-auto" />
+          <div className="mt-12 rounded-2xl overflow-hidden border-2 border-teal/20">
+            <Image src="/images/team/group.jpeg" alt="TCT Oncology physician team at the transplant program in San Juan, Puerto Rico" width={1600} height={1067} sizes="(min-width: 1280px) 1232px, 100vw" className="w-full h-64 md:h-96 object-cover object-top" />
           </div>
           <div className="mt-12 flex flex-wrap justify-center gap-6">
             {[
