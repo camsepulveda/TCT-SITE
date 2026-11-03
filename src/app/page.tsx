@@ -231,7 +231,7 @@ export default function Home() {
               { name: "Dr. Alexis M. Cruz-Chac\u00f3n", roleKey: "doc_cruz_role" as const, photo: "/images/team/cruz.jpeg", bioKey: "doc_cruz_bio" as const },
               { name: "Dr. Cristian Rodr\u00edguez Arocho", roleKey: "doc_rodriguez_role" as const, photo: "/images/team/rodriguez.jpeg", bioKey: "doc_rodriguez_bio" as const },
               { name: "Dr. Carlos Bachier Cintr\u00f3n", roleKey: "doc_bachier_role" as const, photo: "/images/team/bachier.jpeg", bioKey: "doc_bachier_bio" as const },
-              { name: "Dra. Mariola V\u00e1zquez Martines", roleKey: "doc_mariola_role" as const, photo: "/images/team/mariola.jpeg", bioKey: "doc_mariola_bio" as const },
+              { name: "Dra. Mariola V\u00e1zquez Mart\u00ednez", roleKey: "doc_mariola_role" as const, photo: "/images/team/mariola.jpeg", bioKey: "doc_mariola_bio" as const },
               { name: "Dra. Karla J. Feliciano-Salv\u00e1", roleKey: "doc_karla_role" as const, photo: "/images/team/karla.jpeg", bioKey: "doc_karla_bio" as const },
               { name: "Dra. Dominic S\u00e1nchez Paredes", roleKey: "doc_sanchez_role" as const, photo: "/images/team/sanchez.jpeg", bioKey: "doc_sanchez_bio" as const },
             ].map((doc) => (
