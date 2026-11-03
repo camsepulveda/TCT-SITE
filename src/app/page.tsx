@@ -224,7 +224,7 @@ export default function Home() {
             <p className="text-lg text-zinc-400 leading-relaxed">{l("team_intro")}</p>
           </div>
           <div className="mt-12 rounded-2xl overflow-hidden border-2 border-teal/20">
-            <Image src="/images/team/group.jpeg" alt="TCT Oncology physician team" width={1200} height={600} className="w-full h-64 md:h-96 object-cover object-top" />
+            <Image src="/images/team/group.jpeg" alt="TCT Oncology physician team at the transplant program in San Juan, Puerto Rico" width={2400} height={1610} sizes="(min-width: 1280px) 1232px, 100vw" className="w-full h-64 md:h-96 object-cover object-top" />
           </div>
           <div className="mt-12 flex flex-wrap justify-center gap-6">
             {[
@@ -233,6 +233,7 @@ export default function Home() {
               { name: "Dr. Carlos Bachier Cintr\u00f3n", roleKey: "doc_bachier_role" as const, photo: "/images/team/bachier.jpeg", bioKey: "doc_bachier_bio" as const },
               { name: "Dra. Mariola V\u00e1zquez Martines", roleKey: "doc_mariola_role" as const, photo: "/images/team/mariola.jpeg", bioKey: "doc_mariola_bio" as const },
               { name: "Dra. Karla J. Feliciano-Salv\u00e1", roleKey: "doc_karla_role" as const, photo: "/images/team/karla.jpeg", bioKey: "doc_karla_bio" as const },
+              { name: "Dra. Dominic S\u00e1nchez Paredes", roleKey: "doc_sanchez_role" as const, photo: "/images/team/sanchez.jpeg", bioKey: "doc_sanchez_bio" as const },
             ].map((doc) => (
               <div key={doc.name} className="w-full md:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)] bg-navy-light rounded-xl overflow-hidden border border-white/5 hover:border-teal/20 transition-colors">
                 <div className="relative h-80 flex items-center justify-center bg-navy-mid">

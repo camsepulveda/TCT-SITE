@@ -66,7 +66,7 @@ export const t = {
     en: "Puerto Rico’s only accredited hematopoietic cell therapy center",
     es: "El único centro de terapia celular hematopoyética acreditado en Puerto Rico",
   },
-  stat_2_value: { en: "5", es: "5" },
+  stat_2_value: { en: "6", es: "6" },
   stat_2_label: {
     en: "Board-certified transplant & cellular therapy physicians",
     es: "Médicos certificados en trasplante y terapia celular",
@@ -512,6 +512,15 @@ export const t = {
   doc_karla_bio: {
     en: "Hematologist and Medical Oncologist with advanced training in bone marrow transplantation and cellular immunotherapy. Medical degree from Ponce Health Sciences University, advanced training at Moffitt Cancer Center. Assistant Professor at the University of Puerto Rico.",
     es: "Hematóloga y Oncóloga Médica con entrenamiento avanzado en trasplante de médula ósea e inmunoterapia celular. Grado médico de Ponce Health Sciences University, entrenamiento avanzado en Moffitt Cancer Center. Profesora Asistente en la Universidad de Puerto Rico.",
+  },
+
+  doc_sanchez_role: {
+    en: "BMT & Cellular Therapy Specialist",
+    es: "Especialista en BMT y Terapia Celular",
+  },
+  doc_sanchez_bio: {
+    en: "Specialist in bone marrow transplantation and cellular therapy, part of the TCT Oncology medical team.",
+    es: "Especialista en trasplante de médula ósea y terapia celular, parte del equipo médico de TCT Oncology.",
   },
 
   // ===== PHYSICIAN REFERRAL INDICATIONS =====
